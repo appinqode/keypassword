@@ -1,0 +1,90 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Mozilla+Headline:wght@200..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Roboto", sans-serif; */
+/* font-family: "Mozilla Headline", sans-serif; */
+/* font-family: "Archivo Black", sans-serif; */
+/* font-family: "Oswald", sans-serif; */
+/* font-family: "Playfair Display", serif; */
+
+/* Styles for Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: white black; /* Thumb, Track */
+}
+/* Styles for Chrome, Edge, Safari */
+*::-webkit-scrollbar {
+  width: 10px; /* Adjust width as needed */
+}
+*::-webkit-scrollbar-thumb {
+  background-color: white; /* Thumb color */
+  border-radius: 5px; /* Rounded corners for the thumb */
+}
+*::-webkit-scrollbar-track {
+  background-color: black; /* Track color */
+}
+.appinqode {
+    -ms-overflow-style: none;
+}
+.appinqode::-webkit-scrollbar-track {
+    background-color: transparent;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    display: inherit;
+}
+.appinqode::-webkit-scrollbar-track-piece {
+    width: 1px;
+    display: inherit;
+}
+.appinqode::-webkit-scrollbar {
+    width: 8px;
+    height: auto;
+    display: inherit;
+}
+.appinqode::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    background: -webkit-linear-gradient(to bottom, #ffffff, #474747);
+    background: linear-gradient(to bottom, #ffffff, #474747);
+    border: 2px solid #474747;
+    display: inherit;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+::selection {
+    background-color: #bfd3dd;
+}
+a {
+    color: #747474;
+    outline: 0;
+    text-decoration: none;
+    cursor: pointer;
+    pointer-events: pointer;
+}
+a:hover {
+    color: #a0a0a0;
+    cursor: pointer;
+    pointer-events: pointer;
+}
+body {
+    font-family: 'Playfair Display', Helvetica, Arial, serif, sans-serif, serif;
+    color: #1C1C1E;
+    overflow-x: hidden;
+}
+html {
+    color: #1C1C1E;
+    overflow-x: hidden;
+}
+.topIcon {
+    width: 140px;
+    height: auto;
+}
+.downloadImage {
+    width: 220px;
+    height: auto;
+}
+.cutomButon {
+    outline: 0;
+    text-decoration: none;
+}
